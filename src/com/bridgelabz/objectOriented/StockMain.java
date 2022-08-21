@@ -6,5 +6,8 @@ public class StockMain {
     }
     public static void main(String[] args){
         welcome();
+        StockPortfolio stockPortfolio = new StockPortfolio();
+        stockPortfolio.addStock();
+        stockPortfolio.stockReport();
     }
 }
